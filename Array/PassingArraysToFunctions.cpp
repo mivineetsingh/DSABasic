@@ -1,4 +1,4 @@
-#include <iostream>>
+#include <iostream>
 
 using namespace std;
 // Arrays are passed by reference
