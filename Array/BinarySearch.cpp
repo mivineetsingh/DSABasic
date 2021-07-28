@@ -4,7 +4,8 @@ using namespace std;
 
 bool binarySearch(int *arr, int n, int key)
 {
-    // works on a sorted array
+    // works on a sorted array (monotonic search space)
+    // O(log(n))
     int start = 0;
     int end = n - 1;
 
